@@ -5,7 +5,7 @@ import { axiosConfig } from "../../Api/axiosConfig";
 import { DataContext } from "../../Component/DataProvider/DataProvider";
 import { Type } from "../../utility/actiontype";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Import visibility icons
-import classes from "./signUp.module.css";
+import classes from "./signup.module.css";
 
 const UserLogin = ({ onSwitch }) => {
   const [, dispatch] = useContext(DataContext);

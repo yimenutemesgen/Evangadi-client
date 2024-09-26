@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import React, { useRef, useState } from "react";
 import { axiosConfig } from "../../Api/axiosConfig";
-import classes from "./signUp.module.css";
+import classes from "./signup.module.css";
 import { ClipLoader } from "react-spinners";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Import visibility icons
 
