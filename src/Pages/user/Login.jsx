@@ -3,7 +3,7 @@ import UserLogin from "./Userlogin";
 import SignUp from "./SignUp";
 import PasswordReset from "./Resetpassword/PasswordReset";
 import LoginLayout from "../../Component/Layout/LoginLayout";
-import classes from "./signUp.module.css";
+import classes from "./signup.module.css";
 import { Link } from "react-router-dom";
 
 const Login = () => {
